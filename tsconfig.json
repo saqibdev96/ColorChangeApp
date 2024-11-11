@@ -1,6 +1,13 @@
 {
-  "extends": "expo/tsconfig.base",
   "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "dom",
+      "es6"
+    ],
+    "jsx": "react-native",
+    "moduleResolution": "node",
     "strict": true
-  }
+  },
+  "extends": "expo/tsconfig.base"
 }
